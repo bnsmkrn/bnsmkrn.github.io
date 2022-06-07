@@ -17,23 +17,23 @@
         Mathematical Concept
   
             <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "cat11" %}
-                        <li><a href="/categories/cat11">├ 기계 학습 ({{category[1].size}})</a></li>
+                {% for X in site.categories %}
+                    {% if X[0] == "cat11" %}
+                        <li><a href="/categories/cat11">├ 기계 학습 ({{X[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "cat12" %}
-                        <li><a href="/categories/cat12">├ 텐서({{category[1].size}})</a></li>
+                {% for X in site.categories %}
+                    {% if X[0] == "cat12" %}
+                        <li><a href="/categories/cat12">├ 텐서({{X[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "cat11" %}
-                        <li><a href="/categories/cat11">├ 통계 ({{category[1].size}})</a></li>
+                {% for X in site.categories %}
+                    {% if X[0] == "cat11" %}
+                        <li><a href="/categories/cat11"> 통계 ({{X[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
