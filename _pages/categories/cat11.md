@@ -1,5 +1,5 @@
 ---
-title: "cat11"
+title: "categorypage"
 layout: archive
 permalink: categories/cat11
 author_profile: true
