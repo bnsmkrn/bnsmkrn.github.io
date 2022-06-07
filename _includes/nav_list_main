@@ -25,7 +25,7 @@
                         <li><a href="/categories/cat11" class="">├ 기계 학습({{category[1].size}})</a></li>
                     {% elif category[0] == "cat12" %}
                         <li><a href="/categories/cat12" class="">├ 텐서 ({{category[1].size}})</a></li>
-                    {% if category[0] == "cat11" %}
+                    {% elif category[0] == "cat11" %}
                         <li><a href="/categories/cat11" class="">├ 통계 ({{category[1].size}})</a></li>
                     {% elif category[0] == "cat12" %}
                         <li><a href="/categories/cat12" class="">├ 데이터 공학({{category[1].size}})</a></li>
