@@ -15,7 +15,6 @@
       
       
       <li>     
-            
 
         Mathematical Concept
   
@@ -47,7 +46,6 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-         
             
         Python
         
@@ -58,7 +56,6 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-            
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "cat12" %}
@@ -66,7 +63,6 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-            
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "cat11" %}
@@ -74,7 +70,6 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-            
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "cat12" %}
@@ -82,7 +77,6 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "cat11" %}
@@ -90,7 +84,6 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-            
             
         C
         
@@ -101,7 +94,6 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-            
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "cat12" %}
@@ -109,7 +101,6 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-            
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "cat11" %}
@@ -117,7 +108,6 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-            
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "cat12" %}
@@ -125,7 +115,6 @@
                     {% endif %}
                 {% endfor %}
             </ul>            
-            
             
         DataBase
         
@@ -136,7 +125,6 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-            
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "cat12" %}
@@ -144,7 +132,6 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-            
             
         Git
         
@@ -155,7 +142,6 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-            
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "cat12" %}
@@ -163,7 +149,6 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-            
             
         project
         
@@ -174,7 +159,6 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-            
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "cat12" %}
@@ -183,11 +167,7 @@
                 {% endfor %}
             </ul>
             
-            
-            
       </li>
-      
-      
       
   </ul>
 </nav>
