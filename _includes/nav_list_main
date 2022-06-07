@@ -32,8 +32,8 @@
             </ul>
             <ul>
                 {% for X in site.categories %}
-                    {% if X[0] == "cat11" %}
-                        <li><a href="/categories/cat11">├ 통계 ({{X[1].size}})</a></li>
+                    {% if X[0] == "cat13" %}
+                        <li><a href="/categories/cat13">├ 통계 ({{X[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
