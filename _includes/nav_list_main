@@ -11,7 +11,7 @@
       <li>
         📂({{sum}})
       </li>
-        ━━━━━━━
+        ━━━━━━━━
       <li>     
 
         Mathematical Concept
@@ -19,7 +19,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "cat11" %}
-                        <li><a href="/categories/cat11" class="">├ 기계 학습 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/cat11">├ 기계 학습 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -33,14 +33,14 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "cat11" %}
-                        <li><a href="/categories/cat11" class="">├ 통계 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/cat11">├ 통계 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "cat12" %}
-                        <li><a href="/categories/cat12" class="">└ 데이터 공학({{category[1].size}})</a></li>
+                        <li><a href="/categories/cat12">└ 데이터 공학({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -50,35 +50,35 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "cat11" %}
-                        <li><a href="/categories/cat11" class="">├ sklearn ({{category[1].size}})</a></li>
+                        <li><a href="/categories/cat11">├ sklearn ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "cat12" %}
-                        <li><a href="/categories/cat12" class="">├ numpy({{category[1].size}})</a></li>
+                        <li><a href="/categories/cat12">├ numpy({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "cat11" %}
-                        <li><a href="/categories/cat11" class="">├ pandas ({{category[1].size}})</a></li>
+                        <li><a href="/categories/cat11">├ pandas ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "cat12" %}
-                        <li><a href="/categories/cat12" class="">├ matplotlib ({{category[1].size}})</a></li>
+                        <li><a href="/categories/cat12">├ matplotlib ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "cat11" %}
-                        <li><a href="/categories/cat11" class="">└ seaborn ({{category[1].size}})</a></li>
+                        <li><a href="/categories/cat11">└ seaborn ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -88,28 +88,28 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "cat11" %}
-                        <li><a href="/categories/cat11" class="">├ C ++ ({{category[1].size}})</a></li>
+                        <li><a href="/categories/cat11">├ C ++ ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "cat12" %}
-                        <li><a href="/categories/cat12" class="">├ C++ STL & 표준 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/cat12">├ C++ STL & 표준 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "cat11" %}
-                        <li><a href="/categories/cat11" class="">├ C ++ 연습문제 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/cat11">├ C ++ 연습문제 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "cat12" %}
-                        <li><a href="/categories/cat12" class="">└ C# ({{category[1].size}})</a></li>
+                        <li><a href="/categories/cat12">└ C# ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>            
@@ -119,14 +119,14 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "cat11" %}
-                        <li><a href="/categories/cat11" class="">├ 구조 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/cat11">├ 구조 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "cat12" %}
-                        <li><a href="/categories/cat12" class="">└ sql문법 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/cat12">└ sql문법 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -136,14 +136,14 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "cat11" %}
-                        <li><a href="/categories/cat11" class="">├ 구조 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/cat11">├ 구조 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "cat12" %}
-                        <li><a href="/categories/cat12" class="">└ 명령어 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/cat12">└ 명령어 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -153,14 +153,14 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "cat11" %}
-                        <li><a href="/categories/cat11" class="">├ 개인 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/cat11">├ 개인 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "cat12" %}
-                        <li><a href="/categories/cat12" class="">└ 협업 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/cat12">└ 협업 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
