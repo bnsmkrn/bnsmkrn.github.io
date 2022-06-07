@@ -17,7 +17,7 @@
       <li>     
             
 
-        <span class="nav__sub-title">Mathematical_Concept</span>
+        <span>Mathematical_Concept</span>
         
             <ul>
                 {% for category in site.categories %}
