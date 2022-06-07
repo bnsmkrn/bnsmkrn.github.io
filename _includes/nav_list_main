@@ -18,15 +18,7 @@
             
 
         Mathematical Concept
-        
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "cat11" %}
-                        <li><a href="/categories/cat11" class="">├ 기계 학습({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            
+  
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "cat11" %}
@@ -35,7 +27,15 @@
                         <li><a href="/categories/cat12" class="">├ 텐서 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
-            </ul>            
+            </ul>  
+  
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "cat11" %}
+                        <li><a href="/categories/cat11" class="">├ 기계 학습({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
             
             <ul>
                 {% for category in site.categories %}
