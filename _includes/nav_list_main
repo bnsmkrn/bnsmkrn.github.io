@@ -11,7 +11,7 @@
       <li>
         📂({{sum}})
       </li>
-        ━━━━━━━━━━━━━━━━━━━━
+        ━━━━━━━
       <li>     
 
         Mathematical Concept
@@ -26,7 +26,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "cat12" %}
-                        <li><a href="/categories/cat12" class=""> 텐서({{category[1].size}})</a></li>
+                        <li><a href="/categories/cat12">├ 텐서({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
