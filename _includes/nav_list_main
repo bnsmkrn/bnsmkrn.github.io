@@ -17,7 +17,7 @@
       <li>     
             
 
-        <span>Mathematical_Concept</span>
+        Mathematical_Concept
         
             <ul>
                 {% for category in site.categories %}
@@ -52,7 +52,7 @@
             </ul>
             
             
-        <span class="nav__sub-title">python</span>
+        <span>python</span>
         
             <ul>
                 {% for category in site.categories %}
@@ -95,7 +95,7 @@
             </ul>
             
             
-        <span class="nav__sub-title">C</span>
+        <span>C</span>
         
             <ul>
                 {% for category in site.categories %}
@@ -130,7 +130,7 @@
             </ul>            
             
             
-        <span class="nav__sub-title">DataBase</span>
+        <span>DataBase</span>
         
             <ul>
                 {% for category in site.categories %}
@@ -149,7 +149,7 @@
             </ul>
             
             
-        <span class="nav__sub-title">git</span>
+        <span>git</span>
         
             <ul>
                 {% for category in site.categories %}
@@ -168,7 +168,7 @@
             </ul>
             
             
-        <span class="nav__sub-title">project</span>
+        <span>project</span>
         
             <ul>
                 {% for category in site.categories %}
