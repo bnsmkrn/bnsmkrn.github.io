@@ -33,14 +33,14 @@
             <ul>
                 {% for X in site.categories %}
                     {% if X[0] == "cat11" %}
-                        <li><a href="/categories/cat11"> 통계 ({{X[1].size}})</a></li>
+                        <li><a href="/categories/cat11">├ 통계 ({{X[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "cat12" %}
-                        <li><a href="/categories/cat12">└ 데이터 공학({{category[1].size}})</a></li>
+                {% for X in site.categories %}
+                    {% if X[0] == "cat12" %}
+                        <li><a href="/categories/cat12">└ 데이터 공학({{X[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -48,37 +48,37 @@
         Python
         
             <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "cat11" %}
-                        <li><a href="/categories/cat11">├ sklearn ({{category[1].size}})</a></li>
+                {% for X in site.categories %}
+                    {% if X[0] == "cat11" %}
+                        <li><a href="/categories/cat11">├ sklearn ({{X[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "cat12" %}
-                        <li><a href="/categories/cat12">├ numpy({{category[1].size}})</a></li>
+                {% for X in site.categories %}
+                    {% if X[0] == "cat12" %}
+                        <li><a href="/categories/cat12">├ numpy({{X[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "cat11" %}
-                        <li><a href="/categories/cat11">├ pandas ({{category[1].size}})</a></li>
+                {% for X in site.categories %}
+                    {% if X[0] == "cat11" %}
+                        <li><a href="/categories/cat11">├ pandas ({{X[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "cat12" %}
-                        <li><a href="/categories/cat12">├ matplotlib ({{category[1].size}})</a></li>
+                {% for X in site.categories %}
+                    {% if X[0] == "cat12" %}
+                        <li><a href="/categories/cat12">├ matplotlib ({{X[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "cat11" %}
-                        <li><a href="/categories/cat11">└ seaborn ({{category[1].size}})</a></li>
+                {% for X in site.categories %}
+                    {% if X[0] == "cat11" %}
+                        <li><a href="/categories/cat11">└ seaborn ({{X[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -86,30 +86,30 @@
         C
         
             <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "cat11" %}
-                        <li><a href="/categories/cat11">├ C ++ ({{category[1].size}})</a></li>
+                {% for X in site.categories %}
+                    {% if X[0] == "cat11" %}
+                        <li><a href="/categories/cat11">├ C ++ ({{X[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "cat12" %}
-                        <li><a href="/categories/cat12">├ C++ STL & 표준 ({{category[1].size}})</a></li>
+                {% for X in site.categories %}
+                    {% if X[0] == "cat12" %}
+                        <li><a href="/categories/cat12">├ C++ STL & 표준 ({{X[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "cat11" %}
-                        <li><a href="/categories/cat11">├ C ++ 연습문제 ({{category[1].size}})</a></li>
+                {% for X in site.categories %}
+                    {% if X[0] == "cat11" %}
+                        <li><a href="/categories/cat11">├ C ++ 연습문제 ({{X[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "cat12" %}
-                        <li><a href="/categories/cat12">└ C# ({{category[1].size}})</a></li>
+                {% for X in site.categories %}
+                    {% if X[0] == "cat12" %}
+                        <li><a href="/categories/cat12">└ C# ({{X[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>            
@@ -117,16 +117,16 @@
         DataBase
         
             <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "cat11" %}
-                        <li><a href="/categories/cat11">├ 구조 ({{category[1].size}})</a></li>
+                {% for X in site.categories %}
+                    {% if X[0] == "cat11" %}
+                        <li><a href="/categories/cat11">├ 구조 ({{X[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "cat12" %}
-                        <li><a href="/categories/cat12">└ sql문법 ({{category[1].size}})</a></li>
+                {% for X in site.categories %}
+                    {% if X[0] == "cat12" %}
+                        <li><a href="/categories/cat12">└ sql문법 ({{X[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -134,16 +134,16 @@
         Git
         
             <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "cat11" %}
-                        <li><a href="/categories/cat11">├ 구조 ({{category[1].size}})</a></li>
+                {% for X in site.categories %}
+                    {% if X[0] == "cat11" %}
+                        <li><a href="/categories/cat11">├ 구조 ({{X[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "cat12" %}
-                        <li><a href="/categories/cat12">└ 명령어 ({{category[1].size}})</a></li>
+                {% for X in site.categories %}
+                    {% if X[0] == "cat12" %}
+                        <li><a href="/categories/cat12">└ 명령어 ({{X[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -151,16 +151,16 @@
         project
         
             <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "cat11" %}
-                        <li><a href="/categories/cat11">├ 개인 ({{category[1].size}})</a></li>
+                {% for X in site.categories %}
+                    {% if X[0] == "cat11" %}
+                        <li><a href="/categories/cat11">├ 개인 ({{X[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "cat12" %}
-                        <li><a href="/categories/cat12">└ 협업 ({{category[1].size}})</a></li>
+                {% for X in site.categories %}
+                    {% if X[0] == "cat12" %}
+                        <li><a href="/categories/cat12">└ 협업 ({{X[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
