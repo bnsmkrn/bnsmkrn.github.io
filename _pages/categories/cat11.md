@@ -4,6 +4,7 @@ layout: archive
 permalink: categories/cat11
 author_profile: true
 sidebar_main: true
+published: true
 ---
 
 {% assign posts = site.categories.cat11 %}
