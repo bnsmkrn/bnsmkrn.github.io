@@ -1,0 +1,14 @@
+---
+layout : single
+title : "cat22첫번째글"
+categories : cat22
+tag: [tag2,tag4]
+published: true
+---
+
+# 카테고리 2-2 태그 2,4
+
+layout : single
+title : "cat22첫두번째글"
+categories : cat22
+tag: [tag2,tag4]
