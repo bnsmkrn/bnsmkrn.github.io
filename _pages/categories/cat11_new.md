@@ -1,5 +1,5 @@
 ---
-title: "categorypage 11번 "
+title: "categorypage 11번 이름바꿈"
 layout: archive
 permalink: categories/cat11
 author_profile: true
