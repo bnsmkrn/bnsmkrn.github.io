@@ -88,14 +88,14 @@
             <ul>
                 {% for X in site.categories %}
                     {% if X[0] == "cat11" %}
-                        <li><a href="/categories/cat11">├ C ++ ({{X[1].size}})</a></li>
+                        <li><a href="/cat_p/cat_name"> 바꿈1 ({{X[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
-                {% for X in site.categories %}
-                    {% if X[0] == "cat12" %}
-                        <li><a href="/categories/cat12">├ C++ STL & 표준 ({{X[1].size}})</a></li>
+                {% for X in site.cat_p %}
+                    {% if X[0] == "cat_name" %}
+                        <li><a href="/cat_p/cat_name"> 바꿈2 ({{X[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
